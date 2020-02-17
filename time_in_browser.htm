@@ -1,0 +1,21 @@
+<!-- Browser Clock -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clock</title>
+</head>
+<body>
+	<script align="center">
+		function printtime(){
+			var d= new Date();
+			var hours=d.getHours();
+			var min=d.getMinutes();
+			var sec=d.getSeconds();
+			document.body.innerHTML=hours+':'+min+':'+sec;
+		}
+		setInterval(printtime,1000);
+
+	</script>
+
+</body>
+</html>
